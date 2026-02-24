@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume </title>
+</head>
+<body>
+
+  <h1>venkatesh miriyala</h1>
+  <p>
+    contact:630538004<br>
+    E-mail:venkateshmiriyala02.com<br>
+    location:nadendla, Andharpradesh, India
+  </p>
+
+  <hr>
+
+  <h2>Career Objective</h2>
+  <p>
+    To secure a challenging position in a reputable organization to expand my learning, knowledge, and skills.
+  </p>
+
+  <h2>Education</h2>
+  <ul>
+    <li><strong>B.Tech in [CSE(AIML)]</strong> – [St.marys group of instution], [2021-25]</li>
+    <li><strong>Intermediate</strong> – [AP model school junior collage], [2019-21]</li>
+    <li><strong>SSC</strong> – [AP model school], [2018-19]</li>
+  </ul>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>Programming Languages: java, partially good at python</li>
+    <li>Web Development: HTML, CSS</li>
+    <li>Tools:  MS Word, Excel</li>
+  </ul>
+
+  <h2>Projects</h2>
+  <p>
+    <strong>Mobile Price Classification using ML</strong><br>
+    Developed a machine learning model using SVM, KNN, and Decision Tree to classify mobile phone price ranges.
+    Tools: Python, scikit-learn.
+  </p>
+
+  <h2>Certificates</h2>
+  <ul>
+    <li>devops using python</li>
+    <li>Web Development Bootcamp – </li>
+  </ul>
+
+  <h2>Personal Details</h2>
+  <ul>
+    <li>Date of Birth: 24-01-2002</li>
+    <li>Languages Known: English, Telugu</li>
+    <li>Hobbies: Reading,learn something new, kabbadi</li>
+  </ul>
+
+</body>
+</html>

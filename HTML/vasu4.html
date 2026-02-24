@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        img {
+            height: 200px;
+            width: 200px;
+            position: relative;
+            box-shadow: 5px 5px 5px black;
+            border-radius: 50%;
+            background-image: url("pspk.jpg");
+            background-size: cover;
+            background-position:center;
+            animation-name: img ;
+            animation-duration: 5s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+        }
+        @keyframes img{
+            from{
+                transform: translateX(100%);
+            }
+            to{
+                transform: translateY(100%);
+            }
+
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="./pspk.jpg" alt="and">
+</body>
+</html>

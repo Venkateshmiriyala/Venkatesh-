@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .line{
+        width: 10px;
+        height: 10px;
+        background-color: green;
+        margin-left: 10px;
+        animation: scale 1000ms infinite;
+    }
+    @keyframes scale {
+        30% {
+            transform:scaleY(4);
+        }
+        60% {
+            transform: scaleY(1);
+        }
+
+    }
+    .container {
+        display: flex;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+  <div class="line" style="animation-delay: 100ms;"></div>
+  <div class="line" style="animation-delay: 200ms;"></div>
+  <div class="line" style="animation-delay: 400ms;"></div>
+  <div class="line" style="animation-delay: 600ms;"></div>
+  <div class="line" style="animation-delay: 1100ms;"></div>
+  <div class="line" style="animation-delay: 2200ms;"></div>
+  <div class="line" style="animation-delay: 3300ms;"></div>
+  <div class="line" style="animation-delay: 4400ms;"></div>
+  <div class="line" style="animation-delay: 900ms;"></div>
+  <div class="line" style="animation-delay: 1000ms;"></div>
+  <div class="line" style="animation-delay: 1100ms;"></div>
+    </div>
+</body>
+</html>
